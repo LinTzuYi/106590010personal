@@ -20,7 +20,7 @@ a {
     color: black;
 }
 
-span, p
+span, p, h4, h5, li, ul
 {
     font-family:'Microsoft JhengHei';
 }
@@ -154,6 +154,7 @@ li{
     color: black;
     margin: 0px 15px 0px 0px;
     border: 1px solid white;
+    cursor: pointer;
 }
 
 .icon-wrapper1, .icon-wrapper21, .icon-wrapper22, .box2, .box2-1, .box2-2, .box3, .message-box, .all-link, .part1, .sale, .block-inder, .title-part3
@@ -231,6 +232,11 @@ li{
     font-size: 20px;
 }
 
+.discount-text:hover, .join-text:hover
+{
+    text-decoration: underline;
+}
+
 .block
 {
     width: 525px;
@@ -302,15 +308,62 @@ li{
     font-size: 20px;
 }
 
+.message1-link:hover, .message2-link:hover, .message3-link:hover
+{
+    text-decoration: underline;
+}
+
+.container3
+{
+    width: 1240px;
+    height: 228px;
+    margin: 0px 20px;
+}
+
 .title-part3
 {
     text-align: center;
-    padding: 0px 468px;
+    padding: 0px 445px;
 }
 
-.photo-jpg
+/* .photo-jpg
 {
     width: 120px;
     height: 120px;
-    margin: 0px 13px 0px 12px;
+    margin: 0px 18px 0px 17px;
+} */
+
+.photo-tp, .photo-tc, .photo-tk, .photo-ks, .photo-tn, .photo-ok, .photo-os, .photo-yl
+{
+    width: 120px;
+    height: 120px;
+    margin: 0px 18px 0px 17px;
+}
+
+.city-name
+{
+    font-size: 16px;
+    margin: 52px 40px;
+    vertical-align:middle;
+}
+
+.all-link
+{
+    width: 1280px;
+    height: 300px;
+    padding: 65px 63px;
+    margin: 35px 0px;
+    background-color: gray;
+}
+
+.link1, .link2, .link3, .link4, .link5
+{
+    margin: 0px 53px;
+    /* align-content: center; */
+}
+
+.link-inder
+{
+    font-size: 16px;
+    line-height: 1.5;
 }
