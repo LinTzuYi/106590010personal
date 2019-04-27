@@ -126,12 +126,7 @@ li{
     border: 1px solid white;
 }
 
-.icon-wrapper1, .icon-wrapper21, .icon-wrapper22
-{
-    display: flex;
-}
-
-.box2, .box2-1, .box2-2, .box3, .message-box, .all-link, .part1, .sale, .block-inder
+.icon-wrapper1, .icon-wrapper21, .icon-wrapper22, .box2, .box2-1, .box2-2, .box3, .message-box, .all-link, .part1, .sale, .block-inder, .title-part3
 {
     display: flex;
 }
@@ -275,6 +270,12 @@ li{
     color: skyblue;
     font-weight: bold;
     font-size: 20px;
+}
+
+.title-part3
+{
+    text-align: center;
+    padding: 0px 468px;
 }
 
 .photo-jpg
