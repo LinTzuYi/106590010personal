@@ -1,0 +1,285 @@
+html{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+*,*:before,*:after {
+	box-sizing: inherit
+}
+body {
+    background-color: white;
+    width: 1280px;
+    height: 1653px;
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    font-family:'Microsoft JhengHei';
+    text-decoration:none;
+    color: black;
+}
+
+span, p
+{
+    font-family:'Microsoft JhengHei';
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+.mid
+{
+    width: 1280px;
+    height: 127px;
+    margin: auto;
+    padding: 0;
+}
+.mid-top
+{
+    display: flex;
+}
+.home-logo
+{
+    width: 179px;
+    height: 63px;
+    margin: 32px;
+    padding: 0;
+}
+.menu
+{
+    display: flex;
+    width: 427px;
+    height: 36px;
+    margin: 46px 548px 45px 31px;
+    padding: 0;
+    font-size: 24px;
+}
+.book, .flight
+{
+    text-align: center;
+    width: 56px;
+    height: 36px;
+    margin: 0px 10px 0px 10px;
+    padding: 0;
+}
+.pick
+{
+    text-align: center;
+    width: 112px;
+    height: 36px;
+    margin: 0px 10px 0px 10px;
+    padding: 0;
+}
+
+.family
+{
+    text-align: center;
+    width: 112px;
+    height: 36px;
+    margin: 0px 20px 0px 10px;
+    padding: 0;
+}
+
+.part1
+{
+    width: 1154px;
+    height: 616px;
+    margin: 0px 63px;
+    padding: 27px 52px 30px;
+}
+
+.container1
+{
+    width: 440ps;
+    margin: 0px 85px 0px 0px;
+    padding: 0;
+}
+
+.buttons, .btn-page, .city-list
+{
+    display: flex;
+}
+
+.buttons
+{
+    height: 32px;
+
+}
+
+.select, .homes
+{
+    width: 154px;
+    height: 32px;
+    font-size:20px;
+    font-family:Microsoft JhengHei;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+    color: black;
+    margin: 0px 15px 0px 0px;
+    border: 1px solid white;
+}
+
+.icon-wrapper1, .icon-wrapper21, .icon-wrapper22
+{
+    display: flex;
+}
+
+.box2, .box2-1, .box2-2, .box3, .message-box, .all-link, .part1, .sale, .block-inder
+{
+    display: flex;
+}
+
+.box2
+{
+    width: 440px;
+    height: 65px;
+    border:1px solid white;
+    margin: 5px 0px;
+}
+
+.icon-wrapper21, .icon-wrapper22
+{
+    width: 158px;
+    height: 32px;
+    margin: 16px 31px 17px;
+    padding: 0;
+}
+
+.inder-date1, .inder-date2
+{
+    width: 124px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: '微軟正黑體';
+}
+
+.people, .room
+{
+    width: 150px;
+    height: 32px;
+    font-family: '微軟正黑體';
+    font-size: 20px;
+    margin: 5px 10px 0px 0px;
+    text-align-last: center;
+}
+
+.btn-page
+{
+    margin: 0;
+}
+
+.news, .ideas
+{
+    width: 100px;
+    height: 32px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.sale-box1
+{
+    width: 250px;
+    height: 250px;
+    margin: 14px 25px 27px 0px;
+    padding: 182px 54px 40px;
+}
+
+.sale-box2
+{
+    width: 250px;
+    height: 250px;
+    margin:14px 0px 27px 0px;
+    padding: 182px 84px 40px;
+}
+
+.discount-text, .join-text
+{
+    font-size: 20px;
+}
+
+.block
+{
+    width: 525px;
+    height: 236px;
+    margin: 0;
+    background-color: white;
+}
+
+.title
+{
+    padding: 23px 174px 11px;
+}
+
+.title-text
+{
+    font-size: 19px;
+    font-family: '微軟正黑體';
+    font-weight: bold;
+}
+
+.i1
+{
+    width: 210px;
+    height: 140px;
+    margin: 0px 12px 23px 10px;
+}
+
+.i2
+{
+    width: 210px;
+    height: 140px;
+    margin: 0px 10px 23px 13px;
+}
+
+.left
+{
+    padding: 60px 8px 83px 0px;
+}
+
+.right
+{
+    padding: 60px 0px 83px 8px;
+}
+
+.message1, .message2, .message3
+{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid skyblue;
+    padding: 30px 0px;
+}
+.message1
+{
+    margin: 5px 26px 35px 63px;
+}
+.message2
+{
+    margin: 5px 26px 35px 26px;
+}
+.message3
+{
+    margin: 5px 63px 35px 26px;
+}
+.message1-link, .message2-link, .message3-link
+{
+    color: skyblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.photo-jpg
+{
+    width: 120px;
+    height: 120px;
+    margin: 0px 13px 0px 12px;
+}
