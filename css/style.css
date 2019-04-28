@@ -20,7 +20,7 @@ a {
     color: black;
 }
 
-span, p, h4, h5, li, ul
+span, p, h2, h4, h5, li, ul
 {
     font-family:'Microsoft JhengHei';
 }
@@ -86,6 +86,11 @@ li{
     padding: 0;
 }
 
+.book:hover, .flight:hover, .pick:hover, .family:hover
+{
+    color: blue;
+}
+
 .others
 {
     float: left;
@@ -103,19 +108,29 @@ li{
 .others-choose{
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: 150px;
     z-index: 1;
     width: others;
+    background-color: white;
 }
 .others-choose a{
     float: none;
     display: block;
-    margin: 0;
+    margin: -2px;
     text-align: left;
+    line-height: 35px;
+    cursor: pointer;
+    font-size: 20px;
 }
 .others:hover .others-choose{
     display: block;
 }
+.others-choose a:hover
+{
+    border:1px solid skyblue;
+    color: blue;
+}
+
 .part1
 {
     width: 1154px;
@@ -281,6 +296,12 @@ li{
     padding: 60px 0px 83px 8px;
 }
 
+.title-part2
+{
+    margin: 25px;
+    text-align: center;
+}
+
 .message1, .message2, .message3
 {
     width: 350px;
@@ -313,6 +334,12 @@ li{
     text-decoration: underline;
 }
 
+.message-inder
+{
+    font-size: 14px;
+    line-height: 24px;
+}
+
 .container3
 {
     width: 1240px;
@@ -326,43 +353,48 @@ li{
     padding: 0px 445px;
 }
 
-/* .photo-jpg
-{
-    width: 120px;
-    height: 120px;
-    margin: 0px 18px 0px 17px;
-} */
-
 .photo-tp, .photo-tc, .photo-tk, .photo-ks, .photo-tn, .photo-ok, .photo-os, .photo-yl
 {
     width: 120px;
     height: 120px;
     margin: 0px 18px 0px 17px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .city-name
 {
     font-size: 16px;
-    margin: 52px 40px;
+    font-weight: bold;
+    color: white;
 }
 
 .all-link
 {
     width: 1280px;
     height: 300px;
-    padding: 65px 63px;
+    padding: 65px 65px;
     margin: 35px 0px;
-    background-color: gray;
+    background-color: rgb(178, 179, 180);
 }
 
-.link1, .link2, .link3, .link4, .link5
+.link-part
 {
-    margin: 0px 53px;
-    /* align-content: center; */
+    width: 126px;
+    height: 170px;
+    margin: 0px 52px;
+}
+
+.link-title
+{
+    margin: 0px;
+    line-height:1.4;
+    cursor: context-menu;
 }
 
 .link-inder
 {
     font-size: 16px;
     line-height: 1.5;
+    cursor: pointer;
 }
